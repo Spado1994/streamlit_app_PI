@@ -46,8 +46,9 @@ st.text(f"Somme des 20 premières décimales de π : {somme_20}")
 somme_144 = sum(int(chiffre) for chiffre in decimales[:144])
 st.text(f"Somme des 122 premières décimales de π : {somme_144}")
 
-somme_1778 = sum(int(chiffre) for chiffre in decimales[:1778])
-st.text(f"Somme des 1778 premières décimales de π : {somme_1778}")
+# Sommes des 1728 premières décimales 
+somme_1728 = sum(int(chiffre) for chiffre in decimales[:1728])
+st.text(f"Somme des 1778 premières décimales de π : {somme_1728}")
 
 st.subheader("Vidéo : L'incroyable addition 1+2+3+4+...=-1/12 - Micmaths")
 st.video("https://www.youtube.com/watch?v=xqTWRtNDO3U")
